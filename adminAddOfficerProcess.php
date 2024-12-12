@@ -57,12 +57,12 @@ if (isset($_SESSION["admin"])) {
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'kamalpere11@gmail.com';
-            $mail->Password = 'dlasxdtdnpmzsbdr';
+            $mail->Username = '********@gmail.com';
+            $mail->Password = '**********';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-            $mail->setFrom('kamalpere11@gmail.com', 'Philip Neri College');
-            $mail->addReplyTo('kamalpere11@gmail.com', 'Philip Neri College');
+            $mail->setFrom('**********@gmail.com', 'Philip Neri College');
+            $mail->addReplyTo('**********@gmail.com', 'Philip Neri College');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'Philip Neri College Academic Officer Login';
