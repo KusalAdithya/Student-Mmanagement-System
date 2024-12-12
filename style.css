@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("fonts/Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: "Baloo2-Regular";
+    src: url("fonts/Baloo2-Regular.ttf");
+}
+
+* {
+    font-family: "Baloo2-Regular";
+    font-size: 16px;
+}
+
+@keyframes transition {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body {
+    animation: transition 0.90s;
+}
+
+
+/* student login */
+
+.body1 {
+    background-color: rgb(244, 243, 243);
+}
+
+.div1 {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.logo {
+    height: 150px;
+    background-image: url("img/philip_neri_COLLEGE1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img1 {
+    height: 500px;
+    background-image: url("img/oi1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.title1 {
+    font-family: "Ubuntu-Light";
+    font-size: 35px;
+}
+
+.input1 {
+    border-radius: 20px;
+}
+
+.btn1 {
+    border-radius: 12px;
+}
+
+
+/* student dashboard */
+
+.div2 {
+    background-color: white;
+    border-style: solid;
+    border-color: #0d6efd;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.div3 {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.logo1 {
+    height: 60px;
+    background-image: url("img/philip_neri_COLLEGE1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div4 {
+    background-color: rgba(248, 244, 244, 0.697);
+    border-radius: 20px;
+}
+
+.logof {
+    height: 150px;
+    background-image: url("img/philip_neri_c_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* student profile  */
+
+.input2 {
+    border-radius: 12px;
+}
+
+.btn2 {
+    border-radius: 10px;
+}
+
+
+/* teacher login */
+
+.img2 {
+    height: 500px;
+    background-image: url("img/oit2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/* teacher dashboard */
+
+.divt1 {
+    background-color: white;
+    border-style: solid;
+    border-color: #2ebf28;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.barT {
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #2ebf28;
+}
+
+
+/* AOfficer login */
+
+.img3 {
+    height: 500px;
+    background-image: url("img/oias2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.divAO1 {
+    background-color: white;
+    border-style: solid;
+    border-color: #0dcaf0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Admin login */
+
+.img4 {
+    height: 500px;
+    background-image: url("img/oiad1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.divAd1 {
+    background-color: white;
+    border-style: solid;
+    border-color: #dc3545;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
